@@ -28,5 +28,3 @@ This is a professional portfolio website built using Next.js 14 and Resend API. 
 - **SASS:** CSS extension language to make styling more powerful and maintainable.
   
 - **Framer Motion:** A production-ready motion library for React, adding animations and transitions.
-
-## Getting Started
