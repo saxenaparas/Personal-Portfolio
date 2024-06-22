@@ -1,7 +1,12 @@
 # Personal Portfolio Website
 <hr/>
-
-![https://drive.google.com/file/d/1mRYDM04bVTCv9c8r3yJ71V5oEYieX6UG/view?usp=sharing](https://saxenaparas.vercel.app/)
+<div align="center">
+  <br />
+    <a href="https://saxenaparas.vercel.app/" target="_blank">
+      <img src="https://github.com/saxenaparas/Personal-Portfolio/blob/main/assets/portfolioScreenshot.png" alt="Portfolio-Screenshot">
+    </a>
+  <br />
+</div>
 
 ## Description
 
