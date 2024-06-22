@@ -2,7 +2,6 @@
 <hr/>
 <div align="center">
     <a href="https://saxenaparas.vercel.app/" target="_blank">
-<!--  <img src="https://github.com/saxenaparas/Personal-Portfolio/blob/main/assets/portfolioScreenshot.png" alt="Portfolio-Screenshot"> -->
       <img src="https://github.com/saxenaparas/Personal-Portfolio/blob/main/assets/portfolio.gif" alt="Portfolio-Screenshot">
     </a>
 </div>
