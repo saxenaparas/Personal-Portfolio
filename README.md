@@ -8,11 +8,11 @@
 </div>
 <hr/>
 
-## Description
+## 📝 Description
 
 This is my portfolio website built using Next.js 14 and Resend API. It is designed to showcase my projects and skills in an elegant and interactive manner.
 
-## Features
+## 🔍 Features
 
 - **Professional Design:** Clean and modern design to effectively showcase projects and skills.
 
@@ -24,7 +24,7 @@ This is my portfolio website built using Next.js 14 and Resend API. It is design
   
 - **Contact Functionality:** Integration with Resend API for seamless contact form functionalities.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **Next.js 14:** Framework for building fast and scalable React applications.
   
