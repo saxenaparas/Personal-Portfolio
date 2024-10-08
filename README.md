@@ -1,4 +1,4 @@
-# ```Personal Portfolio Website:```
+# ```Personal Portfolio Website```:
 <hr/>
 <div align="center">
     <a href="https://saxenaparas.vercel.app/" target="_blank">
