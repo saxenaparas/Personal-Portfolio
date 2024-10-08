@@ -25,12 +25,12 @@ This is my portfolio website built using Next.js 14 and Resend API. It is design
 
 ## ```🛠️``` Technologies Used:
 
-- #### **```Next.js 14```:** Framework for building fast and scalable React applications.
+- **Next.js 14:** Framework for building fast and scalable React applications.
   
-- #### **```TailwindCSS```:** A utility-first CSS framework for designing custom and responsive interfaces.
+- **TailwindCSS:** A utility-first CSS framework for designing custom and responsive interfaces.
   
-- #### **```SASS```:** CSS extension language to make styling more powerful and maintainable.
+- **SASS:** CSS extension language to make styling more powerful and maintainable.
   
-- #### **```Framer Motion```:** A production-ready motion library for React, adding animations and transitions.
+- **Framer Motion:** A production-ready motion library for React, adding animations and transitions.
 
-- #### **```Resend API```:** Email API for developers that helps them build, test and send transactional emails at scale.
+- **Resend API:** Email API for developers that helps them build, test and send transactional emails at scale.
