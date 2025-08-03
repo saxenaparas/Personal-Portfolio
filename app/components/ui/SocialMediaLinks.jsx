@@ -12,7 +12,7 @@ const SocialMediaLinks = () => {
                 <Image src={GithubIcon} alt="Github Icon" />
             </Link>
             <hr />
-            <Link href="https://linkedin.com/in/saxenaparas" target="_blank" rel="noopener noreferrer">
+            <Link href="https://linkedin.com/in/saxena-paras" target="_blank" rel="noopener noreferrer">
                 <Image src={LinkedinIcon} alt="Linkedin Icon" />
             </Link>
             <hr />
@@ -22,5 +22,6 @@ const SocialMediaLinks = () => {
         </div>
     )
 }
+
 
 export default SocialMediaLinks;
