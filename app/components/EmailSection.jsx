@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import Contact from "./ui/contact/Contact";
+import InfiniteContact from "./ui/contact/InfiniteContact";
+import SmallInfiniteContact from "./ui/contact/SmallInfiniteContact";
 import SocialMediaLinks from "./ui/SocialMediaLinks";
 
 const EmailSection = () => {
@@ -51,7 +52,8 @@ const EmailSection = () => {
     >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
-        <h5 className="text-3xl font-bold textColor1 my-2">Let&apos;s Connect</h5>
+        <h5 className="text-3xl font-bold textColor1 my-2">Let&apos;s Connect <SmallInfiniteContact /></h5> 
+        
         <p className="textColor2 mb-4 max-w-md text-justify text-lg">
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
@@ -59,7 +61,7 @@ const EmailSection = () => {
         </p>
         <SocialMediaLinks />
       </div>
-
+      
       <div className="relative">
         {emailSubmitted ? (
           <p className="text-green-500 text-3xl mt-auto ml-10 p-5 w-2/3 content-center border-dotted border-2 border-indigo-600">
@@ -68,12 +70,12 @@ const EmailSection = () => {
         ) : (
           <form className="flex flex-col z-0" onSubmit={handleSubmit}>
             <div className="mb-6">
-              <Contact />
+              <InfiniteContact />
               <label
                 htmlFor="email"
                 className="textColor1 block mb-2 text-base font-medium"
               >
-                Your email
+                📧 Your Email
               </label>
               <input
                 name="email"
@@ -81,7 +83,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="📧 example@example.com"
               />
             </div>
             <div className="mb-6">
@@ -89,7 +91,7 @@ const EmailSection = () => {
                 htmlFor="subject"
                 className="textColor1 block text-base mb-2 font-medium"
               >
-                Subject
+               🔎 Subject
               </label>
               <input
                 name="subject"
@@ -97,7 +99,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying hi"
+                placeholder="👋 Just saying hi"
               />
             </div>
             <div className="mb-6">
@@ -105,13 +107,13 @@ const EmailSection = () => {
                 htmlFor="message"
                 className="textColor1 block text-base mb-2 font-medium"
               >
-                Message
+                📝 Message 
               </label>
               <textarea
                 name="message"
                 id="message"
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Let's talk about..."
+                placeholder="💬 Let's talk about..."
               />
             </div>
             <button
