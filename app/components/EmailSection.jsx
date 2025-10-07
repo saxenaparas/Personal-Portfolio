@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import InfiniteContact from "./ui/contact/InfiniteContact";
-import SmallInfiniteContact from "./ui/contact/SmallInfiniteContact";
+import Contact from "./ui/contact/Contact";
+import MiniContact from "./ui/miniContact/miniContact";
 import SocialMediaLinks from "./ui/SocialMediaLinks";
 
 const EmailSection = () => {
@@ -52,7 +52,7 @@ const EmailSection = () => {
     >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
-        <h5 className="text-3xl font-bold textColor1 my-2">Let&apos;s Connect <SmallInfiniteContact /></h5> 
+        <h5 className="text-3xl font-bold textColor1 my-2">Let&apos;s Connect : <MiniContact/> :</h5> 
         
         <p className="textColor2 mb-4 max-w-md text-justify text-lg">
           I&apos;m currently looking for new opportunities, my inbox is always
@@ -70,7 +70,7 @@ const EmailSection = () => {
         ) : (
           <form className="flex flex-col z-0" onSubmit={handleSubmit}>
             <div className="mb-6">
-              <InfiniteContact />
+              <Contact />
               <label
                 htmlFor="email"
                 className="textColor1 block mb-2 text-base font-medium"
