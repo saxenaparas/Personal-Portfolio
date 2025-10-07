@@ -24,14 +24,26 @@ const HeroSection = () => {
               sequence={[
                 "PARAS",
                 1000,
-                "Web Developer",
+                "Software Developer",
                 1000,
-                "MERN Stack Developer",
+                "Full Stack Developer",
+                1000,
+                "DevOps Engineer",
+                1000,
+                "Cloud Engineer", 
                 1000,
                 "UI/UX Designer",
                 1000,
                 "C/ C++ Programmer",
                 1000,
+                "Python Programmer",
+                1000, 
+                "MERN Stack Developer",
+                1000,
+                "Machine Learning Enthusiast",
+                1000, 
+                // "Machine Learning Enthusiast",
+                // 1000, 
               ]}
               wrapper="span"
               speed={50}
@@ -39,7 +51,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="textColor2 text-base sm:text-lg mb-6 lg:text-xl">
-            I am a Full Stack Developer based in India. I love to build performant, responsive, and interactive web applications and websites.
+            Skilled in Cloud, DevOps, MERN Stack, AWS, and UI/UX design. I aim to leverage my skills in a technology-driven role to create impactful solutions. I seek opportunities to collaborate with diverse teams and contribute to the development of innovative products.
           </p>
           <div>
             <Link
